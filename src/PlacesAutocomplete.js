@@ -197,6 +197,10 @@ class PlacesAutocomplete extends React.Component {
         event.preventDefault();
         this.handleEnterKey();
         break;
+      case 'Tab':
+        event.preventDefault();
+        this.handleEnterKey();
+        break;
       case 'ArrowDown':
         event.preventDefault(); // prevent the cursor from moving
         this.handleDownKey();
